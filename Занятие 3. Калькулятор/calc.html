@@ -1,0 +1,58 @@
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Калькулятор</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="calc.js"></script>
+</head>
+
+<body>
+    <main>
+
+        <div class="calcMenu">
+
+            <div class="calculator">
+                <input type="text" class="calc_inp" id="calc_input" maxlength="17" value="0">
+                <div class="calc_block">
+                    <button class="calc_but">←</button>
+                    <button class="calc_but">C</button>
+                    <button class="calc_but">%</button>
+                    <button class="calc_but">÷</button>
+                </div>
+                <div class="calc_block">
+                    <button class="calc_but calc__number">7</button>
+                    <button class="calc_but calc__number">8</button>
+                    <button class="calc_but calc__number">9</button>
+                    <button class="calc_but">×</button>
+                </div>
+                <div class="calc_block">
+                    <button class="calc_but calc__number">4</button>
+                    <button class="calc_but calc__number">5</button>
+                    <button class="calc_but calc__number">6</button>
+                    <button class="calc_but">-</button>
+                </div>
+                <div class="calc_block">
+                    <button class="calc_but calc__number">1</button>
+                    <button class="calc_but calc__number">2</button>
+                    <button class="calc_but calc__number">3</button>
+                    <button class="calc_but">+</button>
+                </div>
+                <div class="calc_block">
+                    <button class="calc_but calc__number">
+                        <div class="clear_icon"></div>
+                    </button>
+                    <button class="calc_but calc__number">0</button>
+                    <button class="calc_but calc__number">.</button>
+                    <button class="calc_but calc__equal" id="calc_submit">=</button>
+                </div>
+            </div>
+
+            <div id="calcHistory">
+            </div>
+        </div>
+
+    </main>
+</body>
+
+</html>
